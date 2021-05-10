@@ -46,7 +46,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./products.html"><strong>場地</strong></a>
+              <a class="nav-link" href="./products.html"
+                ><strong>場地</strong></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./login.html"><strong>登入</strong></a>
@@ -63,8 +65,88 @@
     <section class="py-8">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 pr-md-0"></div>
-          <div class="col-md-6 pl-md-0"></div>
+          <div class="col-lg-9">
+            <div class="bg-aid text-primary text-center py-4 h4">
+              您的購物車
+            </div>
+            <div class="row align-items-center py-3 text-primary border-bottom">
+              <div class="col-md-9">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <img
+                      src="./images/car.jpg"
+                      class="h-100"
+                      width="100%"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-5 h5">
+                    白巧克力教練車<br /><span class="h6">NT $300</span>
+                  </div>
+                  <div class="col-3">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="count"
+                      value="2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pt-3 text-right price">                
+                <strong>NT $600</strong
+                ><button type="button" class="btn ml-3">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </div>
+            </div>
+            <div class="row align-items-center py-3 text-primary border-bottom">
+              <div class="col-md-9">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <img
+                      src="./images/car.jpg"
+                      class="h-100"
+                      width="100%"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-5 h5">
+                    黑巧克力輪胎<br /><span class="h6">NT $250</span>
+                  </div>
+                  <div class="col-3">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="count"
+                      value="3"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pt-3  text-right price">
+                <strong>NT $750</strong>
+                <button type="button" class="btn ml-3">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-3 mt-lg-0">
+            <div class="bg-primary text-white text-center p-4">
+              <div class="h4 border-bottom pb-3">訂單摘要</div>
+              <div class="h6 py-2 d-flex justify-content-between">
+                <span>小計</span><span>NT $1,350</span>
+              </div>
+              <div class="h6 pb-2 d-flex justify-content-between">
+                <span>運費</span><span>NT $60</span>
+              </div>
+              <div class="h5 d-flex justify-content-between">
+                <span>總計</span><strong>NT $1,410</strong>
+              </div>
+            </div>
+            <botton class="btn btn-assist text-primary w-100  py-3"><span class="h5">結帳</span></botton>
+          </div>
         </div>
       </div>
     </section>
@@ -118,7 +200,7 @@
     </footer>
     <!-- <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script> -->
-    
+
     <script src="./javascripts/jQuery/jquery.js"></script>
     <script src="./javascripts/bootstrap/bootstrap.js"></script>
   </body>
