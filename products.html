@@ -12,20 +12,30 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <meta property="og:url" content="" />
+    <meta
+      property="og:url"
+      content="https://timothy-hippo.github.io/driving/index.html"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="全民汽車駕駛人訓練班" />
     <meta
       property="og:description"
       content="全民駕訓班，原地原車現場考照，一人一台車，增設假日班"
     />
-    <meta property="og:image" content="" />
+    <meta
+      property="og:image"
+      content="https://timothy-hippo.github.io/driving/images/car.png"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <h1 class="h3">全民駕訓班</h1>
+        <a
+          class="navbar-brand logo"
+          href="./index.html"
+          style="background-image: url(./images/logo.svg)"
+        >
+          <h1 class="h6 mb-0">全民駕訓班</h1>
         </a>
         <button
           class="navbar-toggler"
@@ -46,7 +56,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./products.html"><strong>場地</strong></a>
+              <a class="nav-link" href="./products.html"
+                ><strong>場地</strong></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./login.html"><strong>登入</strong></a>
@@ -60,11 +72,289 @@
         </div>
       </div>
     </nav>
-    <section class="py-8">
+    <section>
+      <div class="container">
+        <div
+          class="product-img bg-cover"
+          style="background-image: url(./images/green.jpg)"
+        >
+          <img class="slogan_v" src="./images/slogan_v.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 pr-md-0"></div>
-          <div class="col-md-6 pl-md-0"></div>
+          <div class="col-md-4 h4 mb-4 mb-md-0">
+            <div class="bg-primary text-white py-3 text-center">甜點類別</div>
+            <div class="list-group" id="list-tab" role="tablist">
+              <a
+                class="list-group-item list-group-item-action active"
+                data-toggle="list"
+                href="#pane-1"
+                role="tab"
+                ><i class="fas fa-angle-right mr-2"></i>所有甜點(20)</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-toggle="list"
+                href="#pane-2"
+                role="tab"
+                ><i class="fas fa-angle-right mr-2"></i>方向盤(6)</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-toggle="list"
+                href="#pane-3"
+                role="tab"
+                ><i class="fas fa-angle-right mr-2"></i>雨刷(8)</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-toggle="list"
+                href="#pane-4"
+                role="tab"
+                ><i class="fas fa-angle-right mr-2"></i>輪胎(2)</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                data-toggle="list"
+                href="#pane-5"
+                role="tab"
+                ><i class="fas fa-angle-right mr-2"></i>保險桿(4)</a
+              >
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="tab-content" id="nav-tabContent">
+              <!-- 所有類別 -->
+              <div
+                class="tab-pane fade show active"
+                id="pane-1"
+                role="tabpanel"
+                aria-labelledby="list-home-list"
+              >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/car.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          白巧克力教練車
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $300</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/line.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          7秒直線
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $180</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/green.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          拐杖糖果
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $560</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/void.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          柏油薄荷糖
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $1080</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 方向盤 -->
+              <div
+                class="tab-pane fade"
+                id="pane-2"
+                role="tabpanel"
+                aria-labelledby="list-profile-list"
+              >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/car.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          白巧克力教練車
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $300</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 雨刷 -->
+              <div
+                class="tab-pane fade"
+                id="pane-3"
+                role="tabpanel"
+                aria-labelledby="list-messages-list"
+              >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/line.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          7秒直線
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $180</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 輪胎 -->
+              <div
+                class="tab-pane fade"
+                id="pane-4"
+                role="tabpanel"
+                aria-labelledby="list-settings-list"
+              >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/green.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          拐杖糖果
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $560</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 保險桿 -->
+              <div
+                class="tab-pane fade"
+                id="pane-5"
+                role="tabpanel"
+                aria-labelledby="list-settings-list"
+              >
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card border-0 h5 h-100">
+                      <img
+                        src="./images/void.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body d-flex p-0 border border-aid">
+                        <div class="border-right w-50 text-center py-4">
+                          柏油薄荷糖
+                        </div>
+                        <div class="w-50 text-center py-4">
+                          <strong>NT $1080</strong>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top-0 bg-white p-0">
+                        <botton class="btn btn-aid text-primary w-100 py-3">
+                          <span class="h5">加入購物車</span>
+                        </botton>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -116,9 +406,7 @@
         © Copyright 2021 全民駕訓班
       </div>
     </footer>
-    <!-- <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script> -->
-    
+
     <script src="./javascripts/jQuery/jquery.js"></script>
     <script src="./javascripts/bootstrap/bootstrap.js"></script>
   </body>

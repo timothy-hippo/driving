@@ -1,0 +1,24 @@
+.product-img{
+  height: 496px;
+  position: relative;
+}
+.slogan_v{
+  width: 110px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffffa1;
+}
+@media (max-width: 576px) {
+  .product-img{
+    height: 280px;
+  }
+  .slogan_v{
+    width: 60px;
+    padding: 10px;
+    right: 15px;
+    top: 15px;
+  }
+}

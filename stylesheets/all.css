@@ -6309,9 +6309,9 @@ a.badge-assist:focus, a.badge-assist.focus {
 
 .list-group-item.active {
   z-index: 2;
-  color: #fff;
-  background-color: #3f4a5d;
-  border-color: #3f4a5d;
+  color: #3f4a5d;
+  background-color: #eaecf0;
+  border-color: #eaecf0;
 }
 
 .list-group-item + .list-group-item {
@@ -14345,6 +14345,15 @@ a.text-assist:hover, a.text-assist:focus {
   }
 }
 
+.logo {
+  width: 170px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .drive-img {
   height: 580px;
 }
@@ -14378,6 +14387,10 @@ a.text-assist:hover, a.text-assist:focus {
   min-height: 320px;
 }
 
+.scheduled .list-group-item {
+  border-bottom: 1px solid #eaecf0;
+}
+
 .box-shadow:hover {
   -webkit-box-shadow: 1px 3px 5px rgba(48, 47, 47, 0.226);
           box-shadow: 1px 3px 5px rgba(48, 47, 47, 0.226);
@@ -14385,6 +14398,52 @@ a.text-assist:hover, a.text-assist:focus {
 
 .teaching {
   margin-top: -30px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 120px;
+  }
+  .drive-img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 576px) {
+  .scheduled-img {
+    min-height: 200px;
+  }
+  .scheduled {
+    font-size: 1.25rem !important;
+  }
+}
+
+.product-img {
+  height: 496px;
+  position: relative;
+}
+
+.slogan_v {
+  width: 110px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffffa1;
+}
+
+@media (max-width: 576px) {
+  .product-img {
+    height: 280px;
+  }
+  .slogan_v {
+    width: 60px;
+    padding: 10px;
+    right: 15px;
+    top: 15px;
+  }
 }
 
 .community-link {
@@ -14414,21 +14473,9 @@ a.text-assist:hover, a.text-assist:focus {
 }
 
 @media (max-width: 767px) {
-  .drive-img {
-    height: 280px;
-  }
   .price {
-    border-top: 1px solid #EAF0ED;
+    border-top: 1px solid #eaf0ed;
     margin-top: 15px;
-  }
-}
-
-@media (max-width: 576px) {
-  .scheduled-img {
-    min-height: 200px;
-  }
-  .scheduled {
-    font-size: 1.25rem !important;
   }
 }
 /*# sourceMappingURL=all.css.map */
