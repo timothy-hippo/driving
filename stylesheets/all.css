@@ -14405,13 +14405,13 @@ a.text-assist:hover, a.text-assist:focus {
     width: 120px;
   }
   .drive-img {
-    height: 280px;
+    height: 320px;
   }
 }
 
 @media (max-width: 576px) {
   .scheduled-img {
-    min-height: 200px;
+    min-height: 240px;
   }
   .scheduled {
     font-size: 1.25rem !important;
