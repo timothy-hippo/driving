@@ -44,7 +44,15 @@ $assist: #f7da7d;
 .teaching {
   margin-top: -30px;
 }
-
+.special{  
+  writing-mode: vertical-lr;
+  letter-spacing: 5px;
+  position: absolute;
+  left:  10px;
+}
+.box-shadow:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+}
 @media (max-width: 767px) {
   .logo {
     width: 120px;
