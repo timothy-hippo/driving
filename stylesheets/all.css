@@ -14522,6 +14522,9 @@ a.text-assist:hover, a.text-assist:focus {
 }
 
 .step-success {
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 3 !important;
 }
 

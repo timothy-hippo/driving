@@ -19,7 +19,10 @@
   position: relative;
   background-color: $aid;
 }
-.step-success {
+.step-success {  
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 3 !important;
 }
 .active::after {
