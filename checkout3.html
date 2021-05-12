@@ -72,79 +72,65 @@
         </div>
       </div>
     </nav>
-    <section class="py-8">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9">
-            <div class="bg-aid text-primary text-center py-4 h4">
-              您的購物車
-            </div>
-            <div class="row align-items-center py-3 text-primary border-bottom">
-              <div class="col-md-9">
-                <div class="row align-items-center">
-                  <div class="col-4">
-                    <img
-                      src="./images/car.jpg"
-                      class="h-100"
-                      width="100%"
-                      alt=""
-                    />
-                  </div>
-                  <div class="col-5 h5">
-                    白巧克力教練車<br /><span class="h6">NT $300</span>
-                  </div>
-                  <div class="col-3">
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="count"
-                      value="2"
-                    />
+    <div class="container py-8">
+      <div class="row">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <div class="bg-primary text-white p-5 h5 m-0">
+            <div class="form-row mb-5">
+              <div class="col-6"><h2 class="m-0">發票</h2></div>
+              <div class="col-6 d-flex align-items-center">
+                <div class="process w-100">
+                  <div class="process w-100">
+                    <div class="step">
+                      <i class="fas fa-check step-success text-primary"></i>
+                    </div>
+                    <div class="step">
+                      <i class="fas fa-check step-success text-primary"></i>
+                    </div>
+                    <div class="step active"></div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 pt-3 text-right price">
-                <strong>NT $600</strong
-                ><button type="button" class="btn ml-3">
-                  <i class="fas fa-trash-alt"></i>
-                </button>
-              </div>
             </div>
-            <div class="row align-items-center py-3 text-primary border-bottom">
-              <div class="col-md-9">
-                <div class="row align-items-center">
-                  <div class="col-4">
-                    <img
-                      src="./images/car.jpg"
-                      class="h-100"
-                      width="100%"
-                      alt=""
-                    />
-                  </div>
-                  <div class="col-5 h5">
-                    黑巧克力輪胎<br /><span class="h6">NT $250</span>
-                  </div>
-                  <div class="col-3">
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="count"
-                      value="3"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 pt-3 text-right price">
-                <strong>NT $750</strong>
-                <button type="button" class="btn ml-3">
-                  <i class="fas fa-trash-alt"></i>
-                </button>
-              </div>
+            <nav class="nav nav-pills nav-fill nav-dark mb-5">
+              <a class="nav-item nav-link py-3 h4 active" href="#">電子發票</a>
+              <a class="nav-item nav-link py-3 h4" href="#">郵寄發票</a>
+            </nav>
+
+            <div class="form-group">
+              <label for="email">電子郵件信箱</label>
+              <input
+                id="email"
+                class="form-control input-row bg-aid text-primary border-0"
+                type="email"
+                placeholder="請輸入Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="idNumber">統一編號（選填）</label>
+              <input
+                id="idNumber"
+                class="form-control input-row bg-aid text-primary border-0"
+                type="tel"
+                maxlength="8"
+                placeholder="12345678"
+              />
             </div>
           </div>
-          <div class="col-lg-3 mt-3 mt-lg-0">
-            <div class="bg-primary text-white text-center p-4">
-              <div class="h4 border-bottom pb-3">訂單摘要</div>
+          <a
+            type="submit"
+            class="btn btn-assist text-primary w-100 py-3"
+            href="./success.html"
+          >
+            <h5 class="m-0">下一步</h5>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <div class="card text-primary mb-4 border-0">
+            <div class="card-header h2 bg-aid m-0 text-center border-0">
+              訂單摘要
+            </div>
+            <div class="card-body border border-aid">
               <div class="h6 py-2 d-flex justify-content-between">
                 <span>小計</span><span>NT $1,350</span>
               </div>
@@ -155,16 +141,36 @@
                 <span>總計</span><strong>NT $1,410</strong>
               </div>
             </div>
-            <a
-              class="btn btn-assist text-primary w-100 py-3"
-              href="./checkout1.html"
-              ><span class="h5">結帳</span></a
-            >
+          </div>
+          <div class="card text-primary border-0">
+            <div class="card-header h2 bg-aid m-0 text-center border-0">
+              購物清單
+            </div>
+            <div class="card-body border border-aid">
+              <div class="form-row mb-2">
+                <div class="col-6">
+                  <img class="w-100" src="./images/car.jpg" alt="" />
+                </div>
+                <div class="col-6 d-flex align-content-center flex-wrap">
+                  <h5 class="w-100">白巧克力教練車</h5>
+                  <h6 class="w-100">NT $300</h6>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-6">
+                  <img class="w-100" src="./images/car.jpg" alt="" />
+                </div>
+                <div class="col-6 d-flex align-content-center flex-wrap">
+                  <h5 class="w-100">黑巧克力輪胎</h5>
+                  <h6 class="w-100">NT $250</h6>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    
+    </div>
+
     <!-- 訂閱郵件 -->
     <section class="bg-aid text-primary py-5">
       <div class="container">
@@ -193,6 +199,8 @@
         </div>
       </div>
     </section>
+
+    <!-- 聯絡我們 -->
     <footer id="footer" class="bg-primary text-white">
       <div class="container">
         <div class="row">
